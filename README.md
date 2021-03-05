@@ -8,17 +8,29 @@ The code for the following paper in IEEE Access:
 
 # Requirements
 - Jupyter Notebook
+- Keras
 - numpy
 - scipy
 - matplotlib
 - Pillow
 
 # Data
-fMRI dataset is provided from Ref. [5] (https://github.com/KamitaniLab/GenericObjectDecoding)*.
+fMRI dataset is provided from Ref. [7] (https://github.com/KamitaniLab/GenericObjectDecoding)*.
 
 *Copyright : CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
-[5] T. Horikawa and Y. Kamitani, “Generic decoding of seen and imagined objects using hierarchical visual features,” Nature Commun., vol. 8, no. 15037, pp. 1–15, 2017.
+[7] T. Horikawa and Y. Kamitani, “Generic decoding of seen and imagined objects using hierarchical visual features,” Nature Commun., vol. 8, no. 15037, pp. 1–15, 2017.
+
+- candidate_name.txt : category names of candidates (10,000 candidates, top 50 categories are 50 test categories)
+- test_images : images of the original 50 test categories
+- multi_sub_data.mat : multi-subject fMRI data, visual features, and semantic features
+  -  subxx_train_sort : fMRI activity of subjectxx for training data
+  -  subxx_test_ave : fMRI activity of subjectxx for test data
+  -  VGG19_train_sort : visual features for training data
+  -  VGG19_candidate : visual features of candidate categories
+  -  word2vec_train_sort : semantic features for training data
+  -  word2vec_candidate : semantic features of candidate categories
+  -  candidate_names : ImageNet ID of candidate categories
 
 # Cite
 Please cite the following papers if you want to use this code in your work.
