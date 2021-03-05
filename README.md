@@ -4,6 +4,8 @@ Multi-Subject Bayesian Generative Model (MSBGM)
 The code for the following paper in IEEE Access:
 > [Perceived Image Decoding From Brain Activity Using Shared Information of Multi-Subject fMRI Data](https://ieeexplore.ieee.org/abstract/document/9349437)
 
+![Image 1](Method.png)
+
 # Code
 - MSBGM-MLP.ipynb : code of the proposed method to reproduce TABLE I and FIGURE 6 (i) of the manuscript (Jupyter Notebook)
 - MSBGM-MLP.py : code of the proposed method to reproduce TABLE I and FIGURE 6 (i) of the manuscript (Python3.7)
