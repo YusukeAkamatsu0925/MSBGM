@@ -7,12 +7,12 @@ The code for the following paper in IEEE Access:
 # Code
 - MSBGM-MLP.ipynb : code of the proposed method to reproduce TABLE I and FIGURE 6 (i) of the manuscript (Jupyter Notebook)
 - MSBGM-MLP.py : code of the proposed method to reproduce TABLE I and FIGURE 6 (i) of the manuscript (Python3.7)
-- MVBGM-MS.ipynb : code of the method in Ref.[17] to reproduce TABLE I and FIGURE 6 (i) of the manuscript (Jupyter Notebook)
-- MVBGM-MS.py : code of the method in Ref.[17] to reproduce TABLE I and FIGURE 6 (i) of the manuscript (Python3.7)
+- MVBGM-MS.ipynb : code of the method in Ref. [17] to reproduce TABLE I and FIGURE 6 (i) of the manuscript (Jupyter Notebook)
+- MVBGM-MS.py : code of the method in Ref. [17] to reproduce TABLE I and FIGURE 6 (i) of the manuscript (Python3.7)
 
 Note that the above codes do not reproduce exactly the same results as TABLE I and FIGURE 6 (i) since prior distributions are randomly initialized by a multivariate normal distribution.
 
-[17] Y. Akamatsu, R. Harakawa, T. Ogawa, and M. Haseyama, ‘‘Multi-view Bayesian generative model for multi-subject fMRI data on brain decoding of viewed image categories,’’ in Proc. IEEE Int. Conf. Acoust.,Speech Signal Process. (ICASSP), 2020, pp. 1215–1219.
+[17] Y. Akamatsu, R. Harakawa, T. Ogawa, and M. Haseyama, "Multi-view Bayesian generative model for multi-subject fMRI data on brain decoding of viewed image categories," in Proc. IEEE Int. Conf. Acoust.,Speech Signal Process. (ICASSP), 2020, pp. 1215–1219.
 
 # Requirements
 - Jupyter Notebook
