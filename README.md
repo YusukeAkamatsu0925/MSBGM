@@ -23,9 +23,10 @@ fMRI dataset is provided from Ref. [7] (https://github.com/KamitaniLab/GenericOb
 
 - candidate_name.txt : category names of candidates (10,000 candidates, top 50 categories are 50 test categories)
 - test_images : images of the original 50 test categories
-- multi_sub_data.mat : multi-subject fMRI data, visual features, and semantic features
-  -  subxx_train_sort : fMRI activity of subjectxx for training data
-  -  subxx_test_ave : fMRI activity of subjectxx for test data
+- subjectxx.mat : fMRI activity of subjectxx
+  - subxx_train_sort : fMRI activity of subjectxx for training data
+  - subxx_test_ave : fMRI activity of subjectxx for test data
+- visual&semantic.mat : visual and semantic features 
   -  VGG19_train_sort : visual features for training data
   -  VGG19_candidate : visual features of candidate categories
   -  word2vec_train_sort : semantic features for training data
