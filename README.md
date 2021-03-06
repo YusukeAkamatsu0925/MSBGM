@@ -1,6 +1,4 @@
 # MSBGM
-Multi-Subject Bayesian Generative Model (MSBGM)
-
 The code for the following paper in IEEE Access:
 > [Perceived Image Decoding From Brain Activity Using Shared Information of Multi-Subject fMRI Data](https://ieeexplore.ieee.org/abstract/document/9349437)
 
